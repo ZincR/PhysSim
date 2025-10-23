@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/assignment3.dir/assignment_code/assignment3/ClothNode.cpp.o"
+  "CMakeFiles/assignment3.dir/assignment_code/assignment3/ClothNode.cpp.o.d"
   "CMakeFiles/assignment3.dir/assignment_code/assignment3/PendulumNode.cpp.o"
   "CMakeFiles/assignment3.dir/assignment_code/assignment3/PendulumNode.cpp.o.d"
   "CMakeFiles/assignment3.dir/assignment_code/assignment3/SimpleExampleNode.cpp.o"

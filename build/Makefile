@@ -200,6 +200,30 @@ glfw/fast:
 	$(MAKE) $(MAKESILENT) -f external/src/glfw-3.3.2/src/CMakeFiles/glfw.dir/build.make external/src/glfw-3.3.2/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
+assignment_code/assignment3/ClothNode.o: assignment_code/assignment3/ClothNode.cpp.o
+.PHONY : assignment_code/assignment3/ClothNode.o
+
+# target to build an object file
+assignment_code/assignment3/ClothNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment3.dir/build.make CMakeFiles/assignment3.dir/assignment_code/assignment3/ClothNode.cpp.o
+.PHONY : assignment_code/assignment3/ClothNode.cpp.o
+
+assignment_code/assignment3/ClothNode.i: assignment_code/assignment3/ClothNode.cpp.i
+.PHONY : assignment_code/assignment3/ClothNode.i
+
+# target to preprocess a source file
+assignment_code/assignment3/ClothNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment3.dir/build.make CMakeFiles/assignment3.dir/assignment_code/assignment3/ClothNode.cpp.i
+.PHONY : assignment_code/assignment3/ClothNode.cpp.i
+
+assignment_code/assignment3/ClothNode.s: assignment_code/assignment3/ClothNode.cpp.s
+.PHONY : assignment_code/assignment3/ClothNode.s
+
+# target to generate assembly for a file
+assignment_code/assignment3/ClothNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment3.dir/build.make CMakeFiles/assignment3.dir/assignment_code/assignment3/ClothNode.cpp.s
+.PHONY : assignment_code/assignment3/ClothNode.cpp.s
+
 assignment_code/assignment3/PendulumNode.o: assignment_code/assignment3/PendulumNode.cpp.o
 .PHONY : assignment_code/assignment3/PendulumNode.o
 
@@ -1103,6 +1127,9 @@ help:
 	@echo "... uninstall"
 	@echo "... assignment3"
 	@echo "... glfw"
+	@echo "... assignment_code/assignment3/ClothNode.o"
+	@echo "... assignment_code/assignment3/ClothNode.i"
+	@echo "... assignment_code/assignment3/ClothNode.s"
 	@echo "... assignment_code/assignment3/PendulumNode.o"
 	@echo "... assignment_code/assignment3/PendulumNode.i"
 	@echo "... assignment_code/assignment3/PendulumNode.s"

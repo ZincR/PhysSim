@@ -1237,7 +1237,7 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/PendulumNode.cpp.o: \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/../common.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorType.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ParticleState.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/PendulumSystem.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/SpringSystem.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ParticleSystemBase.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorBase.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorFactory.hpp \

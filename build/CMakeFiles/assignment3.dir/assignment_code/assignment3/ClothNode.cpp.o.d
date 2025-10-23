@@ -1,7 +1,6 @@
-CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/SimulationApp.cpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/SimulationApp.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/Application.hpp \
+CMakeFiles/assignment3.dir/assignment_code/assignment3/ClothNode.cpp.o: \
+  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ClothNode.cpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ClothNode.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -516,9 +515,12 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h \
@@ -563,25 +565,26 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/from_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move_backward.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h \
@@ -593,9 +596,7 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h \
@@ -614,9 +615,6 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move_backward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h \
@@ -624,11 +622,10 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_permutation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min_max_result.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax.h \
@@ -812,52 +809,164 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/byteswap.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/external.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/imgui.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/imconfig.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/examples/imgui_impl_glfw.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/examples/imgui_impl_opengl3.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glad/include/glad/glad.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glad/include/KHR/khrplatform.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glfw-3.3.2/include/GLFW/glfw3.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/glm.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/_fixes.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/setup.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/../simd/platform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/fwd.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/qualifier.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/vec2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/qualifier.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec2.inl \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/./compute_vector_relational.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/./setup.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool2_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_float2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_float2_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_double2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_double2_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int2_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_int2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/../detail/setup.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_uint2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_uint2_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/tables.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_output.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_to_n_result.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/from_range.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/unique_lock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/SceneNode.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_formatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg_store.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_args.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/ref_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder1st.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/compose.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_functions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_char.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/write_escaped.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/vec3.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool3.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec3.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/qualifier.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/setup.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/../simd/platform.h \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec3.inl \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/compute_vector_relational.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool3_precision.hpp \
@@ -868,9 +977,44 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int3.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int3_sized.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_int3.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/scalar_int_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/../detail/setup.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_uint3.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_uint3_sized.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_uint3.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/ComponentBase.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/ComponentType.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/utils.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glad/include/glad/glad.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glad/include/KHR/khrplatform.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/Transform.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/glm.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/_fixes.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/setup.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/fwd.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/qualifier.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/vec2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec2.inl \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/./compute_vector_relational.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool2_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_float2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_float2_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_double2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_double2_precision.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int2_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_int2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_uint2.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_uint2_sized.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_uint2.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/vec4.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_bool4.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/type_vec4.hpp \
@@ -880,7 +1024,6 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_float4_precision.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_double4.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_double4_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../detail/setup.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int4.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/vector_int4_sized.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/./ext/../ext/vector_int4.hpp \
@@ -1008,159 +1151,6 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/vector_relational.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/integer.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/detail/func_integer.inl \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/Scene.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/tables.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_output.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_to_n_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/unique_lock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/SceneNode.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_default_formatter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_formatter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_context.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg_store.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_args.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/ref_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder1st.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/compose.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_char.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/write_escaped.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/escaped_output_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_floating_point.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_pointer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/ComponentBase.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/ComponentType.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/utils.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/Transform.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/quaternion.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/../gtc/constants.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/../gtc/../ext/scalar_constants.hpp \
@@ -1245,90 +1235,32 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/epsilon.inl \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/../vector_relational.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtc/../common.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/CameraComponent.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/Renderer.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/LightComponent.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/lights/LightBase.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/RenderingComponent.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/VertexObject.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/gl_wrapper/VertexArray.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/gl_wrapper/IBindable.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/external.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/imgui.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/imconfig.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/examples/imgui_impl_glfw.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/imgui/examples/imgui_impl_opengl3.h \
+  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glfw-3.3.2/include/GLFW/glfw3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/alias_types.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/gl_wrapper/VertexBuffer.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/gl_wrapper/BindableBuffer.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/gloo/gl_wrapper/BindGuard.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorType.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/string_cast.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../glm.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/type_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/quaternion.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/vec1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_bool1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../detail/type_vec1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_bool1_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_float1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_float1_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_double1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_double1_precision.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_int1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_int1_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/vector_int1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/scalar_int_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_uint1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/vector_uint1_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/vector_uint1.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../gtc/../ext/../ext/scalar_uint_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int1_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int2_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int3_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_int4_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/scalar_int_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint1_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint2_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint3_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/vector_uint4_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../ext/scalar_uint_sized.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_vec2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_vec3.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_vec4.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat2x2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat2x3.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat2x4.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat3x2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat3x3.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat3x4.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat4x2.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat4x3.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/../detail/type_mat4x4.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/type_precision.inl \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtc/quaternion.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtx/dual_quaternion.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtx/../glm.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtx/../gtc/constants.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtx/../gtc/quaternion.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtx/dual_quaternion.inl \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/../gtx/../geometric.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/external/src/glm-0.9.9.8/glm/gtx/string_cast.inl \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/shaders/PhongShader.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/shaders/ShaderProgram.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/ShadingComponent.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/MaterialComponent.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/Material.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/MeshLoader.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/parsers/ObjParser.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/MeshData.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/lights/PointLight.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/lights/AmbientLight.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/cameras/ArcBallCameraNode.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/gloo/debug/AxisNode.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/SimpleExampleNode.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorBase.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ParticleSystemBase.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ParticleState.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/PendulumNode.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/SpringSystem.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ParticleSystemBase.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorBase.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/IntegratorFactory.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ForwardEulerIntegrator.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/TrapezoidalIntegrator.hpp \
   /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/RK4Integrator.hpp \
-  /Users/ZincR/Desktop/6.4400/assignment3/assignment_code/assignment3/ClothNode.hpp
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/RenderingComponent.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/components/ShadingComponent.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/shaders/ShaderProgram.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/shaders/PhongShader.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/shaders/SimpleShader.hpp \
+  /Users/ZincR/Desktop/6.4400/assignment3/gloo/debug/PrimitiveFactory.hpp
