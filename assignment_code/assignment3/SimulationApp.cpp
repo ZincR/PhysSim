@@ -16,6 +16,7 @@
 
 #include "SimpleExampleNode.hpp"
 #include "PendulumNode.hpp"
+#include "ClothNode.hpp"
 
 namespace GLOO {
 SimulationApp::SimulationApp(const std::string& app_name,
@@ -54,15 +55,20 @@ void SimulationApp::SetupScene() {
   point_light_node->GetTransform().SetPosition(glm::vec3(0.0f, 2.0f, 4.f));
   root.AddChild(std::move(point_light_node));
 
-  auto node = make_unique<GLOO::SimpleExampleNode>(
+  auto node = make_unique<SimpleExampleNode>(
     integrator_type_,
     integration_step_);
   scene_->GetRootNode().AddChild(std::move(node));
 
-  auto pendulum = make_unique<GLOO::PendulumNode>(
+  auto pendulum = make_unique<PendulumNode>(
       integrator_type_,
       integration_step_);
   scene_->GetRootNode().AddChild(std::move(pendulum));
+
+  auto cloth = make_unique<ClothNode>(
+      integrator_type_,
+      integration_step_);
+  scene_->GetRootNode().AddChild(std::move(cloth));
 
 }
 }  // namespace GLOO

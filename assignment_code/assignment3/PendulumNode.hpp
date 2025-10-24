@@ -3,7 +3,7 @@
 #include "gloo/SceneNode.hpp"
 #include "IntegratorType.hpp"
 #include "ParticleState.hpp"
-#include "PendulumSystem.hpp"
+#include "SpringSystem.hpp"
 #include "IntegratorBase.hpp"
 #include "IntegratorFactory.hpp"
 
@@ -15,10 +15,7 @@ class PendulumNode : public SceneNode {
   void Update(double delta_time) override;
 
  private:
-  void InitChain_();
-  void BuildVisuals_();
-
-  PendulumSystem system_;
+  SpringSystem system_;
   ParticleState  state_;
   std::unique_ptr<IntegratorBase<ParticleSystemBase, ParticleState>> integrator_;
   float dt_;

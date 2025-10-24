@@ -30,8 +30,8 @@ PendulumNode::PendulumNode(IntegratorType type, float dt) : dt_(dt) {
     particles_.clear();
     for (int i = 0; i < N; ++i) {
         auto child = make_unique<SceneNode>();
-        auto sphere_obj = std::shared_ptr<VertexObject>(PrimitiveFactory::CreateSphere(0.1f, 16, 12));
-        child->CreateComponent<RenderingComponent>(sphere_obj);
+        auto sphere_vo = std::shared_ptr<VertexObject>(PrimitiveFactory::CreateSphere(0.1f, 16, 12).release());
+        child->CreateComponent<RenderingComponent>(sphere_vo);
         child->CreateComponent<ShadingComponent>(shader);
         child->GetTransform().SetPosition(state_.positions[i]);
         particles_.push_back(child.get());
